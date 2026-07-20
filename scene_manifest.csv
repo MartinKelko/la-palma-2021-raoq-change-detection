@@ -1,7 +1,0 @@
-﻿Dataset,GEE Collection ID,Temporal window,Composite,Cloud masking,Variables
-Sentinel-1 GRD,COPERNICUS/S1_GRD,1 Aug–31 Aug (2021–2025),Annual median,"IW, descending orbit, edge masking","VV, VH"
-Sentinel-2 MSI,COPERNICUS/S2_SR_HARMONIZED,1 Aug–31 Aug (2021–2025),Annual median,"QA60 + SCL, CLOUDY_PIXEL_PERCENTAGE ≤20%","B8A, B11, B12"
-Landsat 8/9,LANDSAT/LC08/C02/T1_L2; LANDSAT/LC09/C02/T1_L2,1 Aug–31 Aug (2021–2025),Annual median,QA_PIXEL,Landsat_TIR
-VIIRS Night-Time Radiance,NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG,August (2021–2025),Annual median,Monthly composite,VIIRS_NT
-VIIRS Black Marble,NASA/VIIRS/002/VNP46A2,August (2021–2025),Annual median,Gap-filled BRDF corrected,VIIRS_BM
-MODIS LST,MODIS/061/MOD11A2,1 Aug–31 Aug (2021–2025),Annual median,"Scale factor applied, converted to °C",MODIS_LST
