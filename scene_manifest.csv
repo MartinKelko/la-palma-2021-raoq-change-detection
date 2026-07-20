@@ -1,0 +1,7 @@
+﻿Platform,GEE_Collection_ID,Main_Variables,Preprocessing,Purpose,Pre_Eruption_Dates,Post_Eruption_Dates
+Sentinel-1 ARD,COPERNICUS/S1_ARD,"VV, VH","IW mode, descending orbit, edge masking",Surface roughness and structural change detection,2021-09-10; 2021-09-16,2021-12-15; 2021-12-21
+Sentinel-2 SR Harmonized,COPERNICUS/S2_SR_HARMONIZED,"B8A, B11, B12, NDVI, NBR, MIRBI, BAIS2, NHI_SWNIR, NHI_SWIR",QA60 + SCL cloud masking; CLOUDY_PIXEL_PERCENTAGE ≤20%,Optical spectral change detection,2021-08-26; 2021-09-10,2022-01-13
+Landsat Collection 2 Level-2,LANDSAT/LC08/C02/T1_L2; LANDSAT/LC09/C02/T1_L2,Landsat_TIR,QA_PIXEL masking; temperature converted to °C,Thermal response,2021-08-25; 2021-09-10,2021-12-15; 2021-12-23
+VIIRS Night-Time Radiance,NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG,VIIRS_NT,Monthly radiance composites,Night-time radiance,2021-09-01,2022-01-01
+VIIRS Black Marble,NASA/VIIRS/002/VNP46A2,VIIRS_BM,Gap-filled BRDF-corrected radiance,Corrected night-time radiance,2021-09-17; 2021-09-18,2021-12-17; 2021-12-18
+MODIS LST,MODIS/061/MOD11A2,MODIS_LST,LST scaled (0.02) and converted to °C,Broad-scale thermal response,2021-09-06; 2021-09-14,2021-12-19; 2021-12-27
