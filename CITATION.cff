@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "La Palma 2021 RaoQ Change Detection"
+type: software
+
+authors:
+  - family-names: "Kelko"
+    given-names: "Martin"
+
+version: "1.0.1"
+
+doi: "10.5281/zenodo.21456460"
+
+repository-code: "https://github.com/MartinKelko/la-palma-2021-raoq-change-detection"
+
+license: "MIT"
+
+date-released: "2026-07-20"
